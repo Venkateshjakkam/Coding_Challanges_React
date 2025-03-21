@@ -1,0 +1,15 @@
+.positiondivx {
+width:100px;
+height:40px;
+border: 5px solid wheat;
+border-radius: 5px;
+
+}
+
+.positiondivy {
+    width:100px;
+height:40px;
+border: 5px solid rgb(16, 16, 15);
+border-radius: 5px;
+
+}
