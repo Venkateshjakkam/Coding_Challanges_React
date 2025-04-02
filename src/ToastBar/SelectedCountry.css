@@ -1,0 +1,88 @@
+/* SelectCountry.css */
+
+.select-country-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.select-country-container select {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  background-color: white;
+  font-size: 16px;
+  color: #333;
+  transition: border-color 0.3s ease;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 1em;
+}
+
+.select-country-container select:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.2);
+}
+
+.select-country-container select option {
+  padding: 10px;
+}
+
+.select-country-container button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.select-country-container button:hover {
+  background-color: #3a7bc8;
+}
+
+.select-country-container button:active {
+  background-color: #2a6bb7;
+}
+
+.select-country-container button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.select-country-container p {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #e8f4fd;
+  border-left: 4px solid #4a90e2;
+  border-radius: 4px;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.select-group {
+  margin-bottom: 15px;
+}
+
+.select-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #555;
+}

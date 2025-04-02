@@ -52,8 +52,7 @@ export default function TodoList() {
 
     [newTodosDown[index], newTodosDown[index + 1]] = [
       newTodosDown[index + 1],
-      newTodosDown[index],
-    ];
+      newTodosDown[index],];
     setUpdateTodo(newTodosDown);
   };
 
