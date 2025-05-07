@@ -1,7 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import SelectCountry from "./ToastBar/SelectCountry";
+import Grid_layout from "./Grid_layout/Grid_layout";
+// import PasswordGenerator from "./FolderStructure/PasswordGenerator";
+// import Accordion from "./Components/Accordion";
+// import NestedCheckBox from "./JiraTask/NestedCheckBox";
+// import PriceCardIcon from "./Components/PriceCardIcon";
+// import FolderStructure from "./FolderStructure/FolderStructure";
+// import StructureFolderData from "./FolderStructure/StructureFolderData";
+// import SelectCountry from "./ToastBar/SelectCountry";
+// import JiraTaskPage from "./JiraTask/JiraTaskPage";
+// import OTPPage from "./JiraTask/OTPPage";
 // import GridLight from "./Components/GridLight";
 // import App from './App';
 // import SearchBar from './Components/SearchBar';
@@ -17,16 +26,21 @@ import SelectCountry from "./ToastBar/SelectCountry";
 // import reportWebVitals from './reportWebVitals';
 // import StopWatch from "./Fetch/StopWatch";
 // import GridLightGreen from "./UpdateDetails/GridLightGreen";
+// import LikeButton from "./Theam/LikeButton";
+// import JobApp from "./Theam/JobApp";
+// import ColorTodoGrid from "./Todo/ColorTodoGrid";
+// import Counter from "./Theam/Counter";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
+    {/* <NestedCheckBox /> */}
     {/* <SearchBar /> */}
     {/* <AdvanceSearch /> */}
     {/* <DebounceSearch /> */}
     {/* <ToastBar /> */}
-    <SelectCountry />
+    {/* <SelectCountry /> */}
     {/* <UpdatedDetails /> */}
     {/* <ToggleButton /> */}
     {/* <TodoList /> */}
@@ -35,6 +49,19 @@ root.render(
     {/* <Theam /> */}
     {/* <FetchUserData /> */}
     {/* <StopWatch /> */}
+    {/* <JiraTaskPage /> */}
+    {/* <PriceCardIcon /> */}
+    {/* <OTPPage /> */}
+    {/* <FolderStructure /> */}
+    {/* <StructureFolderData /> */}
+    {/* <LikeButton /> */}
+    {/* <JobApp /> */}
+    {/* <PasswordGenerator /> */}
+    {/* <UseEffectPolyFill /> */}
+    {/* <Accordion /> */}
+    {/* <Counter /> */}
+    {/* <ColorTodoGrid /> */}
+    <Grid_layout />
   </React.StrictMode>
 );
 

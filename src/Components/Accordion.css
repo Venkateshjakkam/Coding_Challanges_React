@@ -1,0 +1,20 @@
+h2{
+    text-align: center;
+}
+.question-symbol{
+    width: 150px;
+    height:150px;
+    margin-left: 400px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: bisque;
+    
+}
+
+.questions-title{
+    display: inline;
+}
+.main{
+    width: 900px;
+    height: 700px;
+}
