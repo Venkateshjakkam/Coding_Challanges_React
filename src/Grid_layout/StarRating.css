@@ -1,0 +1,56 @@
+/* /* .starDiv{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 400px;
+}
+.mainDiv{
+    display: flex;
+    flex-direction: row;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(215, 211, 211);
+    gap: 2px;
+}
+
+.mainDiv:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.coloredDiv{
+    display: flex;
+    flex-direction: row;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    gap: 2px;
+} */
+
+
+
+.starDiv {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  background-color: transparent;
+  transition: background-color 0.3s, border-color 0.3s;
+  cursor: pointer;
+}
+
+.circle.filled {
+  background-color: black;
+  border-color: black;
+}
+

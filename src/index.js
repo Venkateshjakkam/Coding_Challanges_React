@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import Grid_layout from "./Grid_layout/Grid_layout";
+import StarRating from './Grid_layout/StarRating';
+// import Grid_layout from "./Grid_layout/Grid_layout";
 // import PasswordGenerator from "./FolderStructure/PasswordGenerator";
 // import Accordion from "./Components/Accordion";
 // import NestedCheckBox from "./JiraTask/NestedCheckBox";
@@ -28,6 +29,7 @@ import Grid_layout from "./Grid_layout/Grid_layout";
 // import GridLightGreen from "./UpdateDetails/GridLightGreen";
 // import LikeButton from "./Theam/LikeButton";
 // import JobApp from "./Theam/JobApp";
+// import QuizApp from "./Quiz_App/QuizApp";
 // import ColorTodoGrid from "./Todo/ColorTodoGrid";
 // import Counter from "./Theam/Counter";
 
@@ -61,7 +63,9 @@ root.render(
     {/* <Accordion /> */}
     {/* <Counter /> */}
     {/* <ColorTodoGrid /> */}
-    <Grid_layout />
+    {/* <Grid_layout /> */}
+    {/* <QuizApp /> */}
+    <StarRating/>
   </React.StrictMode>
 );
 
