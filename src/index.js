@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import StarRating from './Grid_layout/StarRating';
+import MultiSelect from "./MultipleSelectInput/MultipleSelect";
+// import StarRating from './Grid_layout/StarRating';
 // import Grid_layout from "./Grid_layout/Grid_layout";
 // import PasswordGenerator from "./FolderStructure/PasswordGenerator";
 // import Accordion from "./Components/Accordion";
@@ -65,7 +66,8 @@ root.render(
     {/* <ColorTodoGrid /> */}
     {/* <Grid_layout /> */}
     {/* <QuizApp /> */}
-    <StarRating/>
+    {/* <StarRating/> */}
+    <MultiSelect />
   </React.StrictMode>
 );
 
