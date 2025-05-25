@@ -1,0 +1,68 @@
+.multiSelectContainer {
+  width: 400px;
+  margin: auto;
+  position: relative;
+}
+
+.pillWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.pill {
+  display: flex;
+  align-items: center;
+  background-color: #eee;
+  border-radius: 12px;
+  padding: 4px 8px;
+  gap: 4px;
+}
+
+.pill img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.pill button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 4px;
+}
+
+.dropdownContainer {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 5px;
+  max-height: 30px;
+  background-color: #000000;
+  color: white;
+  z-index: 999;
+  position: absolute;
+  width: 150px;
+}
+
+.mainSelectedDiv {
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.mainSelectedDiv:hover,
+.mainSelectedDiv.active {
+  background-color: #7c1717;
+  color: white;
+}
+
+.flexSelectedDiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+

@@ -1,7 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import MultiSelect from "./MultipleSelectInput/MultipleSelect";
+// import ModelPopUp from "./ModelPopUp/ModelPopUp";
+import SelectedInput from "./SelectedInput/SelectedInput";
+// import MultiSelect from "./MultipleSelectInput/MultipleSelect";
 // import StarRating from './Grid_layout/StarRating';
 // import Grid_layout from "./Grid_layout/Grid_layout";
 // import PasswordGenerator from "./FolderStructure/PasswordGenerator";
@@ -67,7 +69,9 @@ root.render(
     {/* <Grid_layout /> */}
     {/* <QuizApp /> */}
     {/* <StarRating/> */}
-    <MultiSelect />
+    {/* <MultiSelect /> */}
+    {/* <ModelPopUp /> */}
+    <SelectedInput />
   </React.StrictMode>
 );
 

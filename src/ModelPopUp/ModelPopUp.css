@@ -1,0 +1,104 @@
+.modalApp {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+}
+
+.modalOpen {
+  background-color: white;
+}
+
+.modalClosed {
+  background-color: rgb(234, 213, 213);
+}
+
+.modalBtn {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modalContent {
+  background-color: white;
+  width: 400px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  text-align: center;
+}
+
+.closeBtn {
+  margin-top: 20px;
+  padding: 8px 16px;
+  background-color: #28c808;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.closeBtn:hover {
+  background-color: #77df00;
+}
+
+.modalImg {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.modalImg img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.statusDiv {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 200px;
+  width: 400px;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-size: 1.5rem;
+  z-index: 1000;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+}
+
+.feedBackDiv{
+  height: 200px;
+  width: 200px;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 100px;
+  border-radius: 15px;
+
+}
