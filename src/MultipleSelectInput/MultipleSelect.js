@@ -12,7 +12,6 @@ function MultiSelect() {
 
   const inputRef = useRef(null);
 
-
   useEffect(() => {
     const fetchUsers = () => {
       setActiveSuggestion(0);
@@ -80,7 +79,6 @@ function MultiSelect() {
   return (
     <div className="user-search-container">
       <div className="user-search-input">
-        {/* Pills */}
         {selectedUsers.map((user) => {
           return (
             <Pill
@@ -91,7 +89,7 @@ function MultiSelect() {
             />
           );
         })}
-        {/* input feild with search suggestions */}
+
         <div>
           <input
             ref={inputRef}
@@ -101,7 +99,7 @@ function MultiSelect() {
             placeholder="Search For a User..."
             onKeyDown={handleKeyDown}
           />
-          {/* Search Suggestions */}
+
           <ul className="suggestions-list">
             {suggestions?.users?.map((user, index) => {
               return !selectedUserSet.has(user.email) ? (
