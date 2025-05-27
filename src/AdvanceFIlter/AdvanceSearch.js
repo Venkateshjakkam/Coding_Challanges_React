@@ -5,20 +5,20 @@ function AdvanceSearch() {
   const [search, setSearch] = useState("");
   const [debouncedSearch, setDebouncedSearch] = useState("");
 
-  
   useEffect(() => {
     const handler = setTimeout(() => {
       setDebouncedSearch(search);
-    }, 3000); 
+    }, 3000);
 
-    return () => clearTimeout(handler); 
+    return () => clearTimeout(handler);
   }, [search]);
 
-  
   useEffect(() => {
     async function filterSearch() {
       try {
-        let response = await fetch(`https://jsonplaceholder.typicode.com/users?q=${search}`);
+        let response = await fetch(
+          `https://jsonplaceholder.typicode.com/users?q=${search}`
+        );
         let data = await response.json();
         let filteredData = data.filter((user) =>
           user.name.toLowerCase().includes(debouncedSearch.toLowerCase())
@@ -31,9 +31,9 @@ function AdvanceSearch() {
 
     if (debouncedSearch) {
       filterSearch();
-     }else {
+    } else {
       setTitle([]);
-     }
+    }
   }, [debouncedSearch]);
 
   return (
