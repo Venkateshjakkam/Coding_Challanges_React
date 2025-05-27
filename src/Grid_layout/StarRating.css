@@ -50,7 +50,7 @@
 }
 
 .circle.filled {
-  background-color: black;
-  border-color: black;
+  background-color: rgb(2, 1, 1);
+  border-color: rgb(2, 0, 0);
 }
 
