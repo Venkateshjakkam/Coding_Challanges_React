@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import "./MultipleSelect.css";
-
 import Pill from "./Pill";
 
 function MultiSelect() {
