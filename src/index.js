@@ -2,7 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 // import ModelPopUp from "./ModelPopUp/ModelPopUp";
-import SelectedInput from "./SelectedInput/SelectedInput";
+// import SelectedInput from "./SelectedInput/SelectedInput";
+import MusicPlay from "./MusicPlay/MusicPlay";
 // import MultiSelect from "./MultipleSelectInput/MultipleSelect";
 // import StarRating from './Grid_layout/StarRating';
 // import Grid_layout from "./Grid_layout/Grid_layout";
@@ -71,7 +72,8 @@ root.render(
     {/* <StarRating/> */}
     {/* <MultiSelect /> */}
     {/* <ModelPopUp /> */}
-    <SelectedInput />
+    {/* <SelectedInput /> */}
+    <MusicPlay />
   </React.StrictMode>
 );
 
