@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./MusicPlay.css";
 
 const playList = [
   { song: "Song1" },
@@ -43,9 +44,15 @@ const MusicPlay = () => {
         ))}
       </div>
 
-      <button onClick={handlePrevious}>Previous</button>
-      <button onClick={handlePlay}>Play</button>
-      <button onClick={handleNext}>Next</button>
+      <button className="pBtn" onClick={handlePrevious}>
+        Previous
+      </button>
+      <button className="playBtn" onClick={handlePlay}>
+        Play
+      </button>
+      <button className="pBtn" onClick={handleNext}>
+        Next
+      </button>
     </div>
   );
 };
