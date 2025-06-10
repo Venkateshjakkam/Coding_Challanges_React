@@ -1,9 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
+// import NumberFormatConverter from "./NumberFormatConverter/NumberFormatConverter";
+import NumberToWord from "./NumberFormatConverter/NumberToWord";
 // import ModelPopUp from "./ModelPopUp/ModelPopUp";
 // import SelectedInput from "./SelectedInput/SelectedInput";
-import MusicPlay from "./MusicPlay/MusicPlay";
+// import MusicPlay from "./MusicPlay/MusicPlay";
+// import Button from "./Button/Button";
 // import MultiSelect from "./MultipleSelectInput/MultipleSelect";
 // import StarRating from './Grid_layout/StarRating';
 // import Grid_layout from "./Grid_layout/Grid_layout";
@@ -73,7 +76,10 @@ root.render(
     {/* <MultiSelect /> */}
     {/* <ModelPopUp /> */}
     {/* <SelectedInput /> */}
-    <MusicPlay />
+    {/* <MusicPlay /> */}
+    {/* <Button /> */}
+    {/* <NumberFormatConverter /> */}
+    <NumberToWord />
   </React.StrictMode>
 );
 

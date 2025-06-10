@@ -39,7 +39,8 @@ const MusicPlay = () => {
         {playList.map((item, index) => (
           <p key={index}>
             {item.song}
-            {index === currentIndex && (isPlaying ? "Playing..." : "Selected")}
+            {index === currentIndex &&
+              (isPlaying ? "  ...  Playing..." : " -----   Selected")}
           </p>
         ))}
       </div>
